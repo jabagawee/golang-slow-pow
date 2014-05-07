@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 go test -bench . -cpuprofile test_profile
 go test -c
